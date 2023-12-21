@@ -1,0 +1,127 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body
+{
+    width: 100%;
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+}
+
+#title
+{
+    font-size: 50px;
+    margin: 0.3em 0 0.5em 5%;
+}
+
+
+#view-block
+{
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+#img-container
+{
+    margin-left: 1%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#shirt-img
+{
+    width: auto;
+    height: 90%;
+}
+
+#info-container
+{
+    width: 40%;
+    height: 100%;
+    
+    margin-left: 5%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #0d193f;
+}
+
+#price
+{
+    font-size: 40px;
+    width: 100%;
+}
+
+#description
+{
+    margin-top: 3%;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+
+#rotation-btn-wrapper, #color-btn-wrapper
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-label
+{
+    font-size: 20px;
+    color:#8e8792;
+    text-align: justify;
+    margin-right: 2%;
+    width: 10%;
+}
+
+.btn
+{
+    background-color: #0d193f;
+    color:#ffffff;
+    height: 35px;
+    border-radius: 10px;
+    width: 13%;
+    padding: 5px 20px;
+    max-width: 350px;
+    margin: 0 2% 0 0;
+    border: 1px solid #0d193f;
+    
+}
+
+.btn:disabled
+{
+    background-color: #465071;
+    color:#ffffff;
+    pointer-events: none;
+}
+
+.btn:hover:not(:disabled)
+{
+    filter: brightness(70%);
+    color:#ffffff;
+}
+
+.btn:active:not(:disabled)
+{
+    filter: brightness(80%);
+    color:#aca4b1;
+}

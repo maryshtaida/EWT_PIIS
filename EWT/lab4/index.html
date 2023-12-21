@@ -52,12 +52,22 @@
                 <input type="radio" name="gender" value="женский"> Женский
             </label>
         </fieldset>
+        <fieldset>
+          <legend>Выберите ваш пол:</legend>
+
+          <label>
+              <input type="radio" name="gender1" value="мужской"> Мужской
+          </label>
+          <label>
+              <input type="radio" name="gender1" value="женский"> Женский
+          </label>
+      </fieldset>
 
         <label for="file">Загрузите файл с фотографией (jpg, png):</label>
         <input type="file" id="file" name="userfile" accept=".jpg, .png">
 
         <label for="comments">Дополнительные комментарии:</label>
-        <textarea id="comments" name="comments" rows="4"></textarea>
+        <textarea id="comments" name="comments" rows="10" ></textarea>
 
         <input type="submit" value="Отправить">
         <input type="reset" value="Сбросить">
