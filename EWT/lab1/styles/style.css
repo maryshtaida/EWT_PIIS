@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'KodeMono'; 
+	src: local('KodeMono-Regular'), 
+		url(/KodeMono-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Montserrat'; 
+	src: local('Montserrat-Regular'), 
+		url(/Montserrat-Regular.ttf); 
+}
+@font-face {
+	font-family: 'OpenSans'; 
+	src: local('OpenSans-Regular'), 
+		url(/OpenSans-Regular.ttf); 
+}
+
+
+body{
+    background-color: #c5ffc3;
+}
+ul{
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+span{
+  font-family: "KodeMono", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+h3{
+  margin-bottom: 20px;
+}
+.container{
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.twilight{
+  font-family: "KodeMono", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.zasos{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.smith{
+  font-family: "Open-Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.film{
+  margin-bottom: 114px;
+}
+.film_description{
+  margin-bottom: 5px ;
+}
+.film_title{
+  margin-bottom: 40px;
+}
+.twilight_description{
+ text-align: end;
+}
+.zasos_description{
+  text-align: center;
+}
+
+.smith_description{
+  text-align: justify;
+}
+img{
+  height:300px;
+  width:400px;
+  border-radius: 50px;
+}
+.img-container{
+  gap: 5px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,97 @@
+button {
+  margin: 50px;
+  font-size: 20px;
+  background-color: red;
+  animation: vibrate 0.1s infinite alternate;
+}
+
+button:hover {
+  animation-play-state: paused;
+  background-color: green;
+}
+
+a.link {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+a.link:hover {
+  color: green;
+}
+
+a.link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: green;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+a.link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  animation: fall 5s ease-in-out infinite; 
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-250px); 
+  }
+  25% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-125px); 
+  }
+  35% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-75px); 
+  }
+  42% {
+    transform: translateY(0);
+  }
+  45% {
+    transform: translateY(-6.25px); 
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+@keyframes vibrate {
+  from {
+    transform: translateX(-5px);
+  }
+  to {
+    transform: translateX(5px);
+  }
+}
+

@@ -1,0 +1,152 @@
+body .wrapper {
+    max-width: 100% !important;
+}
+
+header,
+footer {
+    position: fixed;
+    background-color: aqua;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+}
+
+header {
+    top: 0;
+    left: 0;
+}
+
+p.word {
+    position: sticky;
+    top: 45px;
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+}
+
+p.word.first {
+    opacity: 90%;
+}
+
+p.word.second {
+    opacity: 70%;
+    margin-left: 80px;
+}
+
+p.word.third {
+    opacity: 50%;
+    margin-left: 123px;
+}
+
+p.word.fourth {
+    opacity: 30%;
+    margin-left: 192px;
+}
+
+p.word.fifth {
+    opacity: 15%;
+    margin-left: 285px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+}
+
+.footer a {
+    color: blue !important;
+    text-decoration: underline !important;
+    &:hover {
+      cursor: default !important;
+    }
+}
+
+main.main p {
+    font-style: normal !important;
+}
+
+main.main .blockquote {
+    font-style: italic !important;
+}
+
+main.main .blockquote:last-of-type {
+    padding-bottom: 20px;
+}
+
+main.main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+img {
+    height: 140px !important;
+    width: 190px;
+    shape-outside: content-box; 
+    shape-margin: 20px; 
+}
+
+
+blockquote.blockquote {
+    font-weight: normal !important;
+}
+
+article.article:not(.word) {
+    text-align: center;
+}
+
+.article.first>p:nth-of-type(3)::first-letter {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article.first img {
+    float: left;
+    height: 160px !important;
+    width: 120px;
+}
+
+.article.second>p:nth-of-type(2)::first-letter {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article.second img {
+    float: right;
+    height: 160px !important;
+    width: 120px;
+}
+
+.article.third>p:nth-of-type(2)::first-letter {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article.third img {
+    float: left;
+}
+
+.article.fourth>p:nth-of-type(2)::first-letter {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article.fourth img {
+    float: right;
+}
+
+.article.fifth>p:nth-of-type(4)::first-letter {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article.fifth img {
+    float: left;
+}
