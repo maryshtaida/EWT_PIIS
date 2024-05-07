@@ -18,7 +18,7 @@ Figma      |   1000
 Html       |   100 
 CSS        |   100
 
-[https://maryshtaida.github.io/EWT_PIIS/]( "Ссылочка на лабы")
+[https://maryshtaida.github.io/EWT_PIIS/] ( "Ссылочка на лабы")
 
 ```
 public class HelloWorld {
