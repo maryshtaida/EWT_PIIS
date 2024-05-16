@@ -42,11 +42,11 @@ let theme = document.getElementById('theme');
 switchMode.onclick = function(){
     let theme = document.getElementById('theme');
 
-    if (theme.getAttribute("href") == "Кодик/style/style_light.css"){
-        theme.href = "Кодик/style/style.css";
+    if (theme.getAttribute("href") == "/Кодик/style/style_light.css"){
+        theme.href = "/Кодик/style/style.css";
 
     } else{
-        theme.href = "Кодик/style/style_light.css";
+        theme.href = "/Кодик/style/style_light.css";
 
     }
 }
