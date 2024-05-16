@@ -42,11 +42,11 @@ let theme = document.getElementById('theme');
 switchMode.onclick = function(){
     let theme = document.getElementById('theme');
 
-    if (theme.getAttribute("href") == "/Кодик/style/style_light.css"){
-        theme.href = "/Кодик/style/style.css";
+    if (theme.getAttribute("href") == "https://github.com/maryshtaida/EWT_PIIS/tree/main/%D0%9A%D0%BE%D0%B4%D0%B8%D0%BA/style/style_light.css"){
+        theme.href = "https://github.com/maryshtaida/EWT_PIIS/tree/main/%D0%9A%D0%BE%D0%B4%D0%B8%D0%BA/style/style.css";
 
     } else{
-        theme.href = "/Кодик/style/style_light.css";
+        theme.href = "https://github.com/maryshtaida/EWT_PIIS/tree/main/%D0%9A%D0%BE%D0%B4%D0%B8%D0%BA/style/style_light.css";
 
     }
 }
