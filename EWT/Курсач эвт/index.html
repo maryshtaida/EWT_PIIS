@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style_light.css" id="theme">
+  <title>Triumf</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <nav class="header__navbar">
+          <a href="#" class="header__logo">
+          <img class="header__logo-img" src="images/logo.png" alt="">
+        </a>
+          <ul class="header__nav">
+            <li class="header__nav-item">
+              <a href="#triumf" class="header__nav-link link">О нас</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#price" class="header__nav-link link">Стоимость</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="places.html" class="header__nav-link link">Филиалы</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="trainer.html" class="header__nav-link link">Тренеры</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#photo" class="header__nav-link link">Фото</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#contacts" class="header__nav-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <div class="menu__box">
+        <a href="#" class="header__logo-burger">
+          <img class="header__logo-img" src="images/logo.png" alt="">
+        </a>
+        <ul class="menu__items">
+          <li><a class="menu__item burger__link" href="#triumf">О нас</a></li>
+          <li><a class="menu__item burger__link" href="#price">Стоимость</a></li>
+          <li><a class="menu__item burger__link" href="places.html">Филиалы</a></li>
+          <li><a class="menu__item burger__link" href="trainer.html">Тренеры</a></li>
+          <li><a class="menu__item burger__link" href="#photo">Фото</a></li>
+          <li><a class="menu__item burger__link" href="#contacts">Контакты</a></li>
+        </ul>
+        <p class="menu__number">+375 29 171 5238</p>
+        <p class="menu__table">Пн-Вс: с 9:00 до 21:00</p>
+        <button class="menu__button btn">Запись</button>
+      </div>
+      </div>
+  </header>
+  <main>
+    <div class="gymnastics">
+      <div class="container">
+
+        <article class="gymnastics__container">
+          <h2 class="gymnastics__title">ЭСТЕТИЧЕСКАЯ ГРУППОВАЯ ГИМНАСТИКА</h2>
+          <p class="gymnastics__description">Открыт набор в группы на новый 
+            сезон 2023-2024 в клуб «Триумф»!</p>
+          <p class="gymnastics__description">Первое занятие <span class="gymnastics__description-span">БЕСПЛАТНО</span></p>
+          <button class="gymnastics__button btn" onclick="openModal()">ЗАПИСАТЬСЯ</button>
+        </article>
+
+      </div>
+    </div>
+
+    <section id="triumf" class="triumf container">
+
+      <h2 class="triumf__title">Триумф – ваш путь к совершенству!</h2>
+      <p class="triumf__description">
+        Направление, которое объединило в себе гимнастику и акробатику, современный танец и театральное искусство
+      </p>
+      <div class="triumf__statistics">
+        <article class="statistics__item">
+          <h2 class="statistics__title"> 8 ЛЕТ</h2>
+          <p class="statistics__description">успешной работы</p>
+        </article>
+        <article class="statistics__item">
+          <h2 class="statistics__title"> 200 ГИМНАСТОК</h2>
+          <p class="statistics__description">тренируются у нас</p>
+        </article>
+        <article class="statistics__item">
+          <h2 class="statistics__title"> 3 ФИЛИАЛА</h2>
+          <p class="statistics__description">в Минске</p>
+        </article>
+      </div>
+    </section>
+    <div class="advantages container">
+      <div class="advantages__container">
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <p class="advantages__title">Бережное отношение</p>
+            <p class="advantages__text">Индивидуальный подход и бережное отношение к каждому ребенку</p>
+          </li>
+          <li class="advantages__item">
+            <p class="advantages__title">Тренеры - профессионалы</p>
+            <p class="advantages__text">Наши тренеры — мастера спорта по художественной гимнастике, 
+              участники и призеры чемпионатов мира и Европы по эстетической 
+              групповой гимнастике</p>
+          </li>
+          <li class="advantages__item">
+            <p class="advantages__title">Группы по уровню подготовки</p>
+            <p class="advantages__text">Группы формируются с учётом возраста гимнасток и уровня их подготовки.
+              В клубе есть как профессиональные команды, так и любительские</p>
+          </li>
+
+          <li class="advantages__item">
+            <p class="advantages__title">Воспитываем победителей</p>
+            <p class="advantages__text">Команды клуба регулярно становятся победителями и призёрами 
+              республиканских и международных турниров и входят в топ лучших 
+              команд мира по эстетической групповой гимнастике. Команды участвуют 
+              в соревнованиях республиканского и международного уровня</p>
+          </li>
+        </ul>
+
+        <div class="advantages__img-wrap">
+          <img src="images/advantages.jpeg" alt="" class="advantages__img">
+        </div>
+
+      </div>
+    </div>
+
+    <section class="categories container">
+      <h2 class="catigories__title">У НАС ТРЕНИРУЮТСЯ</h2>
+
+      <div class="categories__items">
+        <article class="categories__item">
+          <figure class="categories__img-wraper">
+            <img src="images/categories_first.png" alt="" class="categories__img">
+          </figure>
+  
+          <h3 class="categories__item-title">МАЛЫШИ</h3>
+  
+          <p class="categories__type">super baby (3,5 – 4,5 лет)
+            super kids (4,5 – 6 лет)</p>
+          <p class="categories__text">В первый год занятия проходят по часу 2−3 раза 
+            в неделю. Со второго года количество тренировок увеличивается до 4−5 часов в неделю и добавляется урок хореографии.</p>
+          <p class="categories__text">Уже в первый год тренировок девочки выходят 
+            на соревновательный ковёр. С показательными 
+            номерами принимают участие в республиканских 
+            турнирах и фестивалях. Всегда награждаются 
+            медалями и получают подарки.</p> 
+            
+        </article>
+    
+        <article class="categories__item">
+          <figure class="categories__img-wraper">
+            <img src="images/categories_second.png" alt="" class="categories__img">
+          </figure>
+  
+          <h3 class="categories__item-title">ДЕТИ</h3>
+  
+          <p class="categories__type">Категории
+            (6 – 8, 8 – 10, 10 – 12 и 12 – 14 лет)</p>
+          <p class="categories__text">Количество тренировочных часов возрастает 
+            от 4−5 до 7−8 часов в неделю. Занятия 
+            хореографией обязательны и, в зависимости 
+            от возраста, составляют 2−3 часа в неделю.</p>
+          <p class="categories__text">Дети соревнуются в своей возрастной категории 
+            в республиканских турнирах. Начиная 
+            с возрастной категории 8−10 лет, допускаются 
+            к стартам международного уровня в рамках 
+            детских соревновательных программ.</p> 
+            
+        </article>
+  
+        <article class="categories__item">
+          <figure class="categories__img-wraper">
+            <img src="images/categories_third.png" alt="" class="categories__img">
+          </figure>
+  
+          <h3 class="categories__item-title">ЮНИОРЫ</h3>
+  
+          <p class="categories__type">14-16 лет (юниоры), 16+ (сеньоры)</p>
+          <p class="categories__text">Количество тренировок в неделю — 8 часов 
+            гимнастики и 2 часа хореографии.</p>
+          <p class="categories__text">Юниоры и сеньоры принимают участие 
+            в соревнованиях по эстетической групповой 
+            гимнастике республиканского и международного 
+            уровня.</p> 
+            
+        </article>
+      </div>
+        
+    </section>
+
+    <section id="price" class="price container">
+
+      <h2 class="price__title">СТОИМОСТЬ</h2>
+
+      <div class="price__container">
+
+        <div class="price__content">
+          <div class="price__items">
+            <article class="price__item">
+              <h3 class="price__item-title">Количество</h3>
+              <p class="price__item-text">в неделю</p>
+              <p class="price__item-numbers">2 часа</p>
+            </article>
+  
+            <article class="price__item">
+              <h3 class="price__item-title">Стоимость</h3>
+              <p class="price__item-text">в месяц</p>
+              <p class="price__item-numbers">85 руб.</p>
+            </article>
+          </div>
+
+          <p class="price__note">Стоимость зависит от количества часов в неделю</p>
+            
+        </div>
+          
+      </div>
+
+    </section>
+    <section class="swiper container" id="photo">
+      <h2 class="swiper__title">НАШИ ФОТО</h2>
+      <p class="swiper__text">Результаты наших гимнасток и благодарность родителей — лучшее подтверждение работы клуба <span class="swiper__text-span">«Триумф»</span></p>
+      <div class="swiper__carousel">
+        <button class="swiper__button" id="left-btn"><i class="arrow">
+          <svg class="swiper__button-img" width="15.000000" height="27.000000" viewBox="0 0 15 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path d="M14 0L0 13L14 26" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+            
+        </i></button>
+        <img class="swiper__img" id="carousel" src="images/swiper-1.jpeg" alt="">
+        <button class="swiper__button" id="right-btn"><i class="arrow">
+          <svg class="swiper__button-img" width="15.000000" height="27.000000" viewBox="0 0 15 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path d="M0 26L14 13L0 0" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+            
+        </i></button>
+      </div>
+    </section>
+    <section id="contacts" class="contacts container">
+      <h2 class="contacts__title">СВЯЖИТЕСЬ С НАМИ</h2>
+
+      <iframe class="contacts__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Adcfe0e27a29394df262d9fe125de1d45d58e03211109525f10eea21d24b85bcb&amp;source=constructor"></iframe>
+
+      <div class="contacts__items">
+        <article class="contacts__item">
+          <h3 class="contacts__type">Телефон</h3>
+          <a href="tel:+375297650956" class="contact__contact link">+375 29 765 0956</a>
+        </article>
+
+        <article class="contacts__item">
+          <h3 class="contacts__type">Почта</h3>
+          <a href="mailto:fegg@tut.by" class="contact__contact link">fegg@tut.by</a>
+        </article>
+
+        <article class="contacts__item">
+          <h3 class="contacts__type">Адрес</h3>
+          <a href="https://yandex.by/maps/-/CDVybCIj" class="contact__contact link">Минск, Беларусь</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <p class="footer__text">
+      Клуб эстетической групповой гимнастики "Триумф" - Федерация эстетической групповой гимнастики. Республика Беларусь, город Минск.
+    </p>
+    <button id="btn" class="footer__button">Сменить тему</button>
+  </footer>
+  <script src="js/script.js"></script>
+  <script>
+    function openModal() {
+    // Получаем ссылку на модальное окно
+    const modal = document.getElementById("modal");
+    
+    // Отображаем модальное окно
+    modal.style.display = "block";
+  }
+  function closeModal() {
+    const modal = document.getElementById("modal");
+    modal.style.display = "none";
+  }
+  </script>
+</body>
+</html>

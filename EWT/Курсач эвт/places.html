@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style_light.css" id="theme">
+  <title>Triumf</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <nav class="header__navbar">
+          <a href="index.html" class="header__logo">
+          <img class="header__logo-img" src="images/logo.png" alt="">
+        </a>
+          <ul class="header__nav">
+            <li class="header__nav-item">
+              <a href="index.html" class="header__nav-link link">О нас</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="index.html" class="header__nav-link link">Стоимость</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link link">Филиалы</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="trainer.html" class="header__nav-link link">Тренеры</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="index.html" class="header__nav-link link">Фото</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="index.html" class="header__nav-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <div class="menu__box">
+        <a href="#" class="header__logo-burger">
+          <img class="header__logo-img" src="images/logo.png" alt="">
+        </a>
+        <ul class="menu__items">
+          <li><a class="menu__item burger__link" href="index.html">О нас</a></li>
+          <li><a class="menu__item burger__link" href="index.html">Стоимость</a></li>
+          <li><a class="menu__item burger__link" href="#">Филиалы</a></li>
+          <li><a class="menu__item burger__link" href="trainer.html">Тренеры</a></li>
+          <li><a class="menu__item burger__link" href="index.html">Фото</a></li>
+          <li><a class="menu__item burger__link" href="index.html">Контакты</a></li>
+        </ul>
+        <p class="menu__number">+375 29 171 5238</p>
+        <p class="menu__table">Пн-Вс: с 9:00 до 21:00</p>
+        <button class="menu__button btn">Запись</button>
+      </div>
+      </div>
+  </header>
+  <main>
+    <section class="places container">
+      <h2 class="places__title">ФИЛИАЛЫ</h2>
+
+      <article class="places__item">
+        <p class="places__type"><span class="places__highlight">Каменная горка</span><span>Пушкинская</span><span>Институт культуры</span></p>
+        <div class="places__content">
+          <div class="places__img-wrap">
+            <img src="images/kamenka.png" alt="" class="places__img">
+          </div>
+          <div class="places__info">
+            <h3 class="places__name">Каменная горка</h3>
+            <p class="places__adress">ул. Кунцевщина 18, Гимназия 4</p>
+            <button class="places__button btn">Записаться</button>
+          </div>
+        </div>
+      </article>
+      <article class="places__item">
+        <p class="places__type"><span>Каменная горка</span><span class="places__highlight">Пушкинская</span><span>Институт культуры</span></p>
+        <div class="places__content">
+          <div class="places__img-wrap">
+            <img src="images/pushkinskaya.png" alt="" class="places__img">
+          </div>
+          <div class="places__info">
+            <h3 class="places__name">Пушкинская</h3>
+            <p class="places__adress">ул. Притыцкого 18, СШ 103</p>
+            <button class="places__button btn">Записаться</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="places__item">
+        <p class="places__type"><span>Каменная горка</span><span>Пушкинская</span><span class="places__highlight">Институт культуры</span></p>
+        <div class="places__content">
+          <div class="places__img-wrap">
+            <img src="images/institut.png" alt="" class="places__img">
+          </div>
+          <div class="places__info">
+            <h3 class="places__name">Институт Культуры</h3>
+            <p class="places__adress">ул. Брестская 66, СШ 110</p>
+            <button class="places__button btn">Записаться</button>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__text">
+      Клуб эстетической групповой гимнастики "Триумф" - Федерация эстетической групповой гимнастики. Республика Беларусь, город Минск.
+    </p>
+    <button id="btn" class="footer__button">Тёмная тема</button>
+  </footer>
+  <script>
+    const btn = document.getElementById('btn');
+  const themeLink = document.getElementById('theme');
+
+  btn.addEventListener('click', () => {
+    const currentTheme = themeLink.getAttribute('href');
+    const newTheme = (currentTheme === '/style/style_light.css') ? '/style/style.css' : '/style/style_light.css';
+    themeLink.setAttribute('href', newTheme);
+  });
+  </script>
+</body>
+</html>
